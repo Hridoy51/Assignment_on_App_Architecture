@@ -1,4 +1,3 @@
-
 package com.example.android.guesstheword.screens.game
 
 import android.os.Bundle

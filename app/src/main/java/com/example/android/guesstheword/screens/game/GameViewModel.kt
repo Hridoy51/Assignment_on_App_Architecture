@@ -1,4 +1,3 @@
-
 package com.example.android.guesstheword.screens.game
 
 import android.os.CountDownTimer
@@ -131,7 +130,7 @@ class GameViewModel : ViewModel() {
     fun onGameFinishComplete() {
         _eventGameFinish.value = false
     }
-   /** for clear **/
+
     override fun onCleared() {
         super.onCleared()
         timer.cancel()
